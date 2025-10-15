@@ -7,14 +7,9 @@ A Multimodal AQI prediction model
 ## How to Run the Full Backend
 
 1. The stable version is located in the `main` branch.
-2. Navigate to the project directory:
+
     
-    ```bash
-    cd VQAweb
-    
-    ```
-    
-3. Modify the file `VQAweb/frontend/Present/src/components/Pictureinput.vue`:
+3. Modify the file `frontend/Present/src/components/Pictureinput.vue`:
     
     Replace `localhost` in the `axios.post` line with your `<server_IP>`.
     
@@ -44,3 +39,4 @@ A Multimodal AQI prediction model
     **Note:**
     
     If Docker images are not successfully deleted, manually modify the `docker rmi` command in the `./docker_run.sh` script to remove them.
+
