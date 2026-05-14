@@ -2,6 +2,8 @@ source venv/Scripts/activate
 
 # AQIweb
 
+Version: bp6c.4
+
 A Multimodal AQI prediction model
 
 ## How to Run the Full Backend
